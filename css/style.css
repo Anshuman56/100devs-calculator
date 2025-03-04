@@ -1,0 +1,39 @@
+.frame {
+  border-radius: 5%;
+  background-color: black;
+  width: 20.938rem;
+  height: 380px;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 40px;
+}
+.InputOutput {
+  height: 50px;
+  background-color: white;
+  width: 14.688rem;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.keys {
+  color: black;
+}
+.allkeys {
+  list-style: none;
+  padding: 0;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 3.125rem);
+  grid-template-rows: repeat(4, 3.125rem);
+  gap: 10px;
+  width: 14.688rem;
+  margin: auto;
+}
+.key {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
