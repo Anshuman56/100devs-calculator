@@ -1,8 +1,8 @@
-let input = document.querySelector("input");
-
-function toDisplay(item) {
-  input.value += item;
-}
-function calculate() {
-  input.value = eval(input.value);
-}
+let obj = {};
+obj.input = document.querySelector("input");
+obj.toDisplay = function (item) {
+  this.input.value += item;
+};
+obj.calculate = function () {
+  this.input.value = eval(this.input.value);
+};
