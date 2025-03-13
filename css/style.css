@@ -5,7 +5,7 @@
   height: 380px;
   margin: auto;
   margin-top: 50px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .InputOutput {
   height: 50px;
@@ -41,4 +41,13 @@
   align-items: center;
   font-weight: bold;
   font-size: 2rem;
+}
+.clearKey {
+  margin-left: 240px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
 }

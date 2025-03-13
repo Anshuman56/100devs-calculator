@@ -9,25 +9,26 @@
   </head>
   <body>
     <section class="frame">
+      <button class="clearKey" onclick="obj.clear()">C</button>
       <input class="InputOutput"></input>
       <div class="keys">
         <div class="allkeys">
           <button class="key" onclick="obj.toDisplay('7')">7</button>
           <button class="key" onclick="obj.toDisplay('8')">8</button>
           <button class="key" onclick="obj.toDisplay('9')">9</button>
-          <button class="key" onclick="obj.toDisplay('/')">/</button>
+          <button class="key" onclick="obj.toOparation('/')">/</button>
           <button class="key" onclick="obj.toDisplay('4')">4</button>
           <button class="key" onclick="obj.toDisplay('5')">5</button>
           <button class="key" onclick="obj.toDisplay('6')">6</button>
-          <button class="key" onclick="obj.toDisplay('*')">X</button>
+          <button class="key" onclick="obj.toOparation('*')">X</button>
           <button class="key" onclick="obj.toDisplay('1')">1</button>
           <button class="key" onclick="obj.toDisplay('2')">2</button>
           <button class="key" onclick="obj.toDisplay('3')">3</button>
-          <button class="key" onclick="obj.toDisplay('+')">+</button>
+          <button class="key" onclick="obj.toOparation('+')">+</button>
           <button class="key" onclick="obj.toDisplay('0')">0</button>
           <button class="key" onclick="obj.toDisplay('.')">.</button>
           <button class="key" onclick="obj.calculate()">=</button>
-          <button class="key" onclick="obj.toDisplay('-')">-</button>
+          <button class="key" onclick="obj.toOparation('-')">-</button>
         </div>
       </div>
     </section>
